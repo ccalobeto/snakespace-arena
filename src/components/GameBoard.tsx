@@ -34,7 +34,7 @@ export const GameBoard = memo(function GameBoard({ gameState, className }: GameB
         <div
           key={index}
           className={cn(
-            "absolute rounded-sm transition-all duration-75",
+            "absolute rounded-sm",
             index === 0 ? "snake-cell z-10" : "snake-cell opacity-90"
           )}
           style={{
